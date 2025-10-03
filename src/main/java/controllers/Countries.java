@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Countries {
 
-    @GetMapping("/")
+    @GetMapping("/countries")
     public String welcome() {
         return "no countries";
 
